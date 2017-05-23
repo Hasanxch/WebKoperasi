@@ -6,3 +6,5 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * Date: 22/05/2017
  * Time: 20.41
  */
+?>
+Ringkasan Admin

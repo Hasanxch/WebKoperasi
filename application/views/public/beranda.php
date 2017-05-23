@@ -7,4 +7,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * Time: 20.41
  */
 ?>
-Beranda
+<!doctype html>
+<html>
+<?php require 'assets/head.php'; ?>
+<body>
+<?php require 'assets/header.php'; ?>
+<?php require 'assets/footer.php'; ?>
+</body>
+</html>

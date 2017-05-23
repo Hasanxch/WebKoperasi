@@ -15,10 +15,10 @@ class Login extends CI_Controller{
         $this->load->view('public/login');
     }
     function cek_login(){
-        $this->load->model('model_user');
+        $this->load->model('ModelUser');
         $data = array(
             'username' => $this->input->post('username'));
-        $hasil = $this->model_user->cek_user($data);
+        $hasil = $this->ModelUser->cek_user($data);
 
         if ($hasil->num_rows() == 1){
 
@@ -33,9 +33,9 @@ class Login extends CI_Controller{
                 }
 
                 if ($this->session->userdata('level') == 'admin'){
-                    redirect('admin/ringkasan');
+                    redirect('admin');
                 } elseif ($this->session->userdata('level') == 'member') {
-                    redirect('member/ringkasan');
+                    redirect('member');
                 }
             } else {
                 echo "<script>alert('Gagal Login: Cek username , password!');history.go(-1);</script>";
