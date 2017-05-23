@@ -11,9 +11,6 @@ class ModelUser extends CI_Model{
     function cek_user($data){
         return $this->db->get_where('user', $data);
     }
-    public function tambah_user($data){
-        return $this->db->insert('user', $data);
-    }
 }
 
 ?>
