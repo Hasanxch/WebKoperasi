@@ -20,7 +20,7 @@ class Admin extends CI_Controller{
     }
 
     function index(){
-        $this->load->view('admin/ringkasan');
+        $this->load->view('admin/dashboard');
     }
 
     function lihat_user() {
@@ -42,6 +42,6 @@ class Admin extends CI_Controller{
         $this->session->unset_userdata('username');
         $this->session->unset_userdata('level');
         session_destroy();
-        redirect('beranda');
+        redirect('login');
     }
 }

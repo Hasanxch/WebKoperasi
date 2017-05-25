@@ -13,7 +13,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Baker Bootstrap Theme</title>
+    <title>Koperasiku</title>
     <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
     <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
 
@@ -40,17 +40,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="#">Ba<span class="logo-dec">ker</span></a>
+                            <a class="navbar-brand" href="#">Kope<span class="logo-dec">rasiku</span></a>
                         </div>
                         <div class="collapse navbar-collapse" id="myNavbar">
                             <ul class="nav navbar-nav navbar-right">
-                                <li class="active"><a href="#main-header">Home</a></li>
-                                <li class=""><a href="#feature">About</a></li>
-                                <li class=""><a href="#service">Services</a></li>
-                                <li class=""><a href="#portfolio">Portfolio</a></li>
-                                <li class=""><a href="#testimonial">Testimonial</a></li>
-                                <li class=""><a href="#blog">Blog</a></li>
-                                <li class=""><a href="#contact">Contact Us</a></li>
+                                <li class="active"><a href="#main-header">Beranda</a></li>
+                                <li class=""><a href="#feature">Tentang</a></li>
+                                <li class=""><a href="#service">Layanan</a></li>
+                                <li class=""><a href="#portfolio">Portofolio</a></li>
+                                <li class=""><a href="#testimonial">Testimoni</a></li>
+                                <li class=""><a href="#contact">Kontak</a></li>
+                                <li class=""><a href="<?php echo base_url('login'); ?>">Login</a></li>
                             </ul>
                         </div>
                     </div>
@@ -267,78 +267,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <small>John Doe, Client</small>
                             </li>
                         </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!---->
-    <section id="blog" class="section-padding wow fadeInUp delay-05s">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h2 class="service-title pad-bt15">Latest from our blog</h2>
-                    <p class="sub-title pad-bt15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <hr class="bottom-line">
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="blog-sec">
-                        <div class="blog-img">
-                            <a href="">
-                                <img src="<?php echo base_url('assets/'); ?>img/blog01.jpg" class="img-responsive">
-                            </a>
-                        </div>
-                        <div class="blog-info">
-                            <h2>This is Lorem ipsum heading.</h2>
-                            <div class="blog-comment">
-                                <p>Posted In: <span>Legal Advice</span></p>
-                                <p>
-                                    <span><a href="#"><i class="fa fa-comments"></i></a> 15</span>
-                                    <span><a href="#"><i class="fa fa-eye"></i></a> 11</span></p>
-                            </div>
-                            <p>We cannot expect people to have respect for laws and orders until we teach respect to those we have entrusted to enforce those laws all the time. we always want to help people cordially.</p>
-                            <a href="" class="read-more">Read more →</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="blog-sec">
-                        <div class="blog-img">
-                            <a href="">
-                                <img src="<?php echo base_url('assets/'); ?>img/blog02.jpg" class="img-responsive">
-                            </a>
-                        </div>
-                        <div class="blog-info">
-                            <h2>This is Lorem ipsum heading.</h2>
-                            <div class="blog-comment">
-                                <p>Posted In: <span>Legal Advice</span></p>
-                                <p>
-                                    <span><a href="#"><i class="fa fa-comments"></i></a> 15</span>
-                                    <span><a href="#"><i class="fa fa-eye"></i></a> 11</span></p>
-                            </div>
-                            <p>We cannot expect people to have respect for laws and orders until we teach respect to those we have entrusted to enforce those laws all the time. we always want to help people cordially.</p>
-                            <a href="" class="read-more">Read more →</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="blog-sec">
-                        <div class="blog-img">
-                            <a href="">
-                                <img src="<?php echo base_url('assets/'); ?>img/blog03.jpg" class="img-responsive">
-                            </a>
-                        </div>
-                        <div class="blog-info">
-                            <h2>This is Lorem ipsum heading.</h2>
-                            <div class="blog-comment">
-                                <p>Posted In: <span>Legal Advice</span></p>
-                                <p>
-                                    <span><a href="#"><i class="fa fa-comments"></i></a> 15</span>
-                                    <span><a href="#"><i class="fa fa-eye"></i></a> 11</span></p>
-                            </div>
-                            <p>We cannot expect people to have respect for laws and orders until we teach respect to those we have entrusted to enforce those laws all the time. we always want to help people cordially.</p>
-                            <a href="" class="read-more">Read more →</a>
-                        </div>
                     </div>
                 </div>
             </div>

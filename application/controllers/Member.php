@@ -24,6 +24,6 @@ class Member extends CI_Controller{
         $this->session->unset_userdata('username');
         $this->session->unset_userdata('level');
         session_destroy();
-        redirect('beranda');
+        redirect('login');
     }
 }
