@@ -22,10 +22,6 @@ class Login extends CI_Controller{
 
         if ($hasil->num_rows() == 1){
 
-            $password_crypt = $data['password'];
-            $password_login = $post = array('password' => $this->input->post('password'));
-
-            if ($password_crypt == crypt($password_login,$password_crypt)){
                 foreach ($hasil->result() as $sess){
                     $sess_data['username'] = $sess->username;
                     $sess_data['level'] = $sess->level;
@@ -37,9 +33,7 @@ class Login extends CI_Controller{
                 } elseif ($this->session->userdata('level') == 'member') {
                     redirect('member');
                 }
-            } else {
-                echo "<script>alert('Gagal Login: Cek username , password!');history.go(-1);</script>";
-            }
+
 
         } else {
             echo "<script>alert('Gagal Login: Cek username , password!');history.go(-1);</script>";
