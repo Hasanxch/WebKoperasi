@@ -23,9 +23,21 @@ class Admin extends CI_Controller{
         $this->load->view('admin/dashboard');
     }
 
-    function lihat_user() {
+    function user() {
         $data['user'] = $this->ModelAdmin->tampil_user()->result();
-        $this->load->view('admin/lihat_user', $data);
+        $this->load->view('admin/user', $data);
+    }
+
+    function tambah_user(){
+        $this->load->view('admin/tambah_user');
+    }
+
+    function sistem(){
+        $this->load->view('admin/sistem');
+    }
+
+    function pengaturan(){
+        $this->load->view('admin/pengaturan');
     }
 
     function hapus_user($id) {
